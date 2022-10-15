@@ -1,6 +1,5 @@
 <h1>Markdown</h1>
 
-
 <h2>Table of Contents</h2>
 
 - [Badge](#badge)
@@ -17,13 +16,12 @@
 - [Text Style](#text-style)
 - [Table](#table)
 
-
-
 ## Badge
 
 ## Checkbox
 
 ## Emoji
+
 [Link](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ## Foldable Text
@@ -45,3 +43,7 @@
 ## Text Style
 
 ## Table
+
+| Sr  | Name |
+| --- | ---- |
+| 0   | Adil |
