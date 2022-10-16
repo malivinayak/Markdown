@@ -110,4 +110,130 @@
 
 ## Text Style
 
+<table>
+
+<tr>
+<td align="center"> <h3>Style</h3> </td>
+<td align="center"> <h3>Markup Code</h3> </td> 
+</tr>
+
+<tr>
+<td>
+
+Common text
+</td>
+<td> 
+
+```markup
+Common text
+```
+</td>
+</tr>
+
+<tr>
+<td>
+
+_Emphasized text_
+</td>
+<td> 
+
+```markup
+_Emphasized text_
+```
+```markup
+*Emphasized text*
+```
+</td>
+</tr>
+
+<tr>
+<td>
+
+~~Strikethrough text~~
+</td>
+<td> 
+
+```markup
+~~Strikethrough text~~
+```
+</td>
+</tr>
+
+<tr>
+<td>
+
+__Strong/Bold text__
+</td>
+<td> 
+
+```markup
+__Strong text__
+```
+```markup
+**Strong text**
+```
+</td>
+</tr>
+
+<tr>
+<td>
+
+___Strong emphasized text___
+</td>
+<td> 
+
+```markup
+___Strong emphasized text___
+```
+```markup
+***Strong emphasized text***
+```
+</td>
+</tr>
+
+<tr>
+<td>
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+</td>
+<td> 
+
+```markup
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+``
+```
+Note : add one more backtick `` ` `` at end
+</td>
+</tr>
+
+<tr>
+<td>
+
+* <p align="left"> Center Alligned Text </p>
+* <p align="center"> Center Alligned Text </p>
+* <p align="right"> Center Alligned Text </p>
+</td>
+<td> 
+
+```html
+<p align="left"> Center Alligned Text </p>
+<p align="center"> Center Alligned Text </p>
+<p align="right"> Center Alligned Text </p>
+```
+</td>
+</tr>
+
+</table>
+
 ## Table
