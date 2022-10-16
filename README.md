@@ -1,6 +1,5 @@
 <h1>Markdown</h1>
 
-
 <h2>Table of Contents</h2>
 
 - [Badge](#badge)
@@ -16,8 +15,6 @@
 - [List](#list)
 - [Text Style](#text-style)
 - [Table](#table)
-
-
 
 ## Badge
 
@@ -90,6 +87,7 @@
 
 
 ## Emoji
+
 [Link](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ## Foldable Text
@@ -237,3 +235,9 @@ Note : add one more backtick `` ` `` at end
 </table>
 
 ## Table
+
+```
+| Sr  | Name |
+| --- | ---- |
+| 0   | Adil |
+```
