@@ -90,7 +90,7 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 
 
 ## Emoji
-[Link](https://www.webfx.com/tools/emoji-cheat-sheet/)
+* [Reference Link](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ## Foldable Text
 
