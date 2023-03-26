@@ -200,28 +200,24 @@ Heading 2
 <table>
 
 <tr>
-<td align="center"> <h3>Style</h3> </td>
 <td align="center"> <h3>Markup Code</h3> </td> 
+<td align="center"> <h3>Style</h3> </td>
 </tr>
 
 <tr>
-<td>
-
-Common text
-</td>
 <td> 
 
 ```markup
 Common text
 ```
 </td>
+<td>
+
+Common text
+</td>
 </tr>
 
 <tr>
-<td>
-
-_Emphasized text_
-</td>
 <td> 
 
 ```markup
@@ -231,26 +227,26 @@ _Emphasized text_
 *Emphasized text*
 ```
 </td>
+<td>
+
+_Emphasized text_
+</td>
 </tr>
 
 <tr>
-<td>
-
-~~Strikethrough text~~
-</td>
 <td> 
 
 ```markup
 ~~Strikethrough text~~
 ```
 </td>
+<td>
+
+~~Strikethrough text~~
+</td>
 </tr>
 
 <tr>
-<td>
-
-__Strong/Bold text__
-</td>
 <td> 
 
 ```markup
@@ -260,13 +256,13 @@ __Strong text__
 **Strong text**
 ```
 </td>
+<td>
+
+__Strong/Bold text__
+</td>
 </tr>
 
 <tr>
-<td>
-
-___Strong emphasized text___
-</td>
 <td> 
 
 ```markup
@@ -276,19 +272,13 @@ ___Strong emphasized text___
 ***Strong emphasized text***
 ```
 </td>
+<td>
+
+___Strong emphasized text___
+</td>
 </tr>
 
 <tr>
-<td>
-
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-</td>
 <td> 
 
 ```markup
@@ -302,15 +292,19 @@ ___Strong emphasized text___
 ```
 Note : add one more backtick `` ` `` at end
 </td>
+<td>
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+</td>
 </tr>
 
 <tr>
-<td>
-
-* <p align="left"> Center Alligned Text </p>
-* <p align="center"> Center Alligned Text </p>
-* <p align="right"> Center Alligned Text </p>
-</td>
 <td> 
 
 ```html
@@ -318,6 +312,12 @@ Note : add one more backtick `` ` `` at end
 <p align="center"> Center Alligned Text </p>
 <p align="right"> Center Alligned Text </p>
 ```
+</td>
+<td>
+
+* <p align="left"> Center Alligned Text </p>
+* <p align="center"> Center Alligned Text </p>
+* <p align="right"> Center Alligned Text </p>
 </td>
 </tr>
 
