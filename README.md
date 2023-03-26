@@ -7,6 +7,7 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 - [Checkbox](#checkbox)
 - [Emoji](#emoji)
 - [Foldable Text](#foldable-text)
+- [Footnotes or References](#footnotes-references)
 - [Heading](#heading)
 - [Nested Block](#nested-block)
 - [Link](#link)
@@ -14,6 +15,7 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
   - [Link to file in same repository](#link-to-file-in-same-repository)
   - [Link to other url](#link-to-other-url)
 - [List](#list)
+- [References](#footnotes-references)
 - [Text Style](#text-style)
 - [Table](#table)
 
@@ -93,6 +95,51 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 * [Reference Link](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ## Foldable Text
+
+## Footnotes References
+ A marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
+
+<table>
+
+<tr>
+<td align="center"> <b>Markup Code</b> </td> 
+<td align="center"> <b>Result</b> </td>
+</tr>
+
+<tr>
+<td> 
+
+```markup
+This is a footnote.[^1]
+
+[^1]: the footnote text.
+```
+</td>
+
+<td>
+
+This is a footnote.[^1]
+
+[^1]: the footnote text.
+
+</td>
+</tr>
+
+<tr>
+<td> 
+
+Colmn 1 Row 2
+</td>
+
+<td>
+
+Colmn 2 Row 2
+</td>
+</tr>
+
+</table>
+
+Note: The `the footnote text.` will be appear at end of the file
 
 ## Heading
 
