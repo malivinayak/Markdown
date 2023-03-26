@@ -9,12 +9,13 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 - [Foldable Text](#foldable-text)
 - [Footnotes or References](#footnotes-references)
 - [Heading](#heading)
-- [Nested Block](#nested-block)
 - [Link](#link)
   - [Link to specific part of page](#link-to-specific-part-of-page)
   - [Link to file in same repository](#link-to-file-in-same-repository)
   - [Link to other url](#link-to-other-url)
 - [List](#list)
+- [Math in Markdown](#math-in-markdown)
+- [Nested Block](#nested-block)
 - [References](#footnotes-references)
 - [Text Style](#text-style)
 - [Table](#table)
@@ -100,7 +101,6 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
  A marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
 
 <table>
-
 
 <tr>
 </tr>
@@ -221,9 +221,6 @@ Heading 2
 
 </table>
 
-
-## Nested Block
-
 ## Link
 
 ### Link to specific part of page
@@ -233,6 +230,68 @@ Heading 2
 ### Link to other url
 
 ## List
+
+## Math in Markdown
+
+
+<table>
+
+<tr>
+<td align="center"> <b>Markup Code</b> </td> 
+<td align="center"> <b>Result</b> </td>
+</tr>
+
+<tr>
+<td> 
+
+Fraction like `4/5`
+```html
+<sup>4</sup>&frasl;<sub>5</sub>
+```
+</td>
+
+<td>
+
+<sup>4</sup>&frasl;<sub>5</sub>
+</td>
+</tr>
+
+<tr>
+<td> 
+
+Not Equal to
+```html
+$a \ne 0$
+$a \ne b$
+```
+</td>
+
+<td>
+
+$a \ne 0$
+
+$a \ne b$
+</td>
+</tr>
+
+<tr>
+<td> 
+
+```html
+$(ax^2 + bx + c = 0)$
+```
+</td>
+
+<td>
+
+$(ax^2 + bx + c = 0)$
+</td>
+</tr>
+
+</table>
+
+
+## Nested Block
 
 ## Text Style
 
