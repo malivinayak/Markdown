@@ -99,8 +99,8 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 <table>
 
 <tr>
-<td align="center"> Markup Code</td> 
-<td align="center"> Result </td>
+<td align="center"> Markup Code  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </td> 
+<td align="center"> Result  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </td>
 </tr>
 
 <!-- Heading 1 Source Code -->
