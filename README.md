@@ -125,18 +125,6 @@ This is a footnote.[^1]
 </td>
 </tr>
 
-<tr>
-<td> 
-
-Colmn 1 Row 2
-</td>
-
-<td>
-
-Colmn 2 Row 2
-</td>
-</tr>
-
 </table>
 
 Note: The `the footnote text.` will be appear at end of the file
