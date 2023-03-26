@@ -367,7 +367,7 @@ Content Cell  | Content Cell
 <td> 
 
 ```markup
-Left aligned Header | Right aligned Header | Center aligned Header
+Left Header | Right Header | Center Header
 | :--- | ---: | :---:
 Content Cell  | Content Cell | Content Cell
 Content Cell  | Content Cell | Content Cell
@@ -377,7 +377,7 @@ Content Cell  | Content Cell | Content Cell
 
 <td>
 
-Left aligned Header | Right aligned Header | Center aligned Header
+Left Header | Right Header | Center Header
 | :--- | ---: | :---:
 Content Cell  | Content Cell | Content Cell
 Content Cell  | Content Cell | Content Cell
