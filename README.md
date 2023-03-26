@@ -326,6 +326,126 @@ Note : add one more backtick `` ` `` at end
 ## Table
 
 
+<table>
+
+<tr>
+
+* Simple Checkbox
+</tr>
+
+<tr>
+<td align="center"> Markup Code to create Table</td> 
+<td align="center"> Result </td>
+</tr>
+
+<!-- Format 1 -->
+<tr>
+<td> 
+
+```markup
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+```
+
+</td>
+
+<td>
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+</td>
+</tr>
+
+<!-- Format 2 -->
+
+<tr>
+<td> 
+
+```markup
+Left aligned Header | Right aligned Header | Center aligned Header
+| :--- | ---: | :---:
+Content Cell  | Content Cell | Content Cell
+Content Cell  | Content Cell | Content Cell
+```
+
+</td>
+
+<td>
+
+Left aligned Header | Right aligned Header | Center aligned Header
+| :--- | ---: | :---:
+Content Cell  | Content Cell | Content Cell
+Content Cell  | Content Cell | Content Cell
+
+</td>
+</tr>
+
+<!-- Format 3 -->
+<tr>
+
+<td>
+
+<p align='center'>Using HTML Syntax</p>
+
+```html
+<table>
+
+<tr>
+<td align="center"> <b>Column 1 Heading</b> </td> 
+<td align="center"> <b>Column 2 Heading</b> </td>
+</tr>
+
+<tr>
+<td> 
+
+Colmn 1 Data here
+</td>
+
+<td>
+
+Colmn 2 Data here
+</td>
+</tr>
+
+</table>
+```
+</td>
+
+<td>
+
+<table>
+
+<tr>
+<td align="center"> <b>Column 1 Heading</b> </td> 
+<td align="center"> <b>Column 2 Heading</b> </td>
+</tr>
+
+<tr>
+<td> 
+
+Colmn 1 Data here
+</td>
+
+<td>
+
+Colmn 2 Data here
+</td>
+</tr>
+
+</table>
+</td>
+
+</tr>
+
+</table>
+
+
+
 ## License
 
 | | |
