@@ -96,6 +96,39 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 
 ## Heading
 
+
+<table>
+
+<tr>
+<td align="center"> Markup Code</td> 
+<td align="center"> Result </td>
+</tr>
+
+<tr>
+<td> 
+
+```markup
+# Heading 1 
+```
+---
+
+```markup
+Heading 1 
+==========
+```
+
+</td>
+
+<td>
+
+# Heading 1
+
+</td>
+</tr>
+
+</table>
+
+
 ## Nested Block
 
 ## Link
