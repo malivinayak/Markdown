@@ -149,6 +149,37 @@ Heading 2
 </td>
 </tr>
 
+<!-- Heading 3 Source Code -->
+<tr>
+<td> 
+
+```markup
+### Heading 3 
+```
+</td>
+
+<td>
+
+### Heading 3 
+</td>
+</tr>
+
+
+<!-- Heading 4 Source Code -->
+<tr>
+<td> 
+
+```markup
+#### Heading 4 
+```
+</td>
+
+<td>
+
+#### Heading 4
+</td>
+</tr>
+
 </table>
 
 
