@@ -96,7 +96,6 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 
 ## Heading
 
-
 <table>
 
 <tr>
@@ -104,6 +103,7 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 <td align="center"> Result </td>
 </tr>
 
+<!-- Heading 1 Source Code -->
 <tr>
 <td> 
 
@@ -123,6 +123,29 @@ Heading 1
 
 # Heading 1
 
+</td>
+</tr>
+
+<!-- Heading 2 Source Code -->
+<tr>
+<td> 
+
+```markup
+## Heading 2 
+```
+---
+
+```markup
+Heading 2 
+-----------
+```
+
+</td>
+
+<td>
+
+Heading 2
+----------
 </td>
 </tr>
 
