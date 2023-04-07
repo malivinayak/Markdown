@@ -485,15 +485,15 @@ ___Strong emphasized text___
 <tr>
 <td> 
 
-```markup
+````markup
 ```diff
 - text in red
 + text in green
 ! text in orange
 # text in gray
 @@ text in purple (and bold)@@
-``
 ```
+````
 Note : add one more backtick `` ` `` at end
 </td>
 <td>
