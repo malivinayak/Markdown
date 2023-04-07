@@ -236,6 +236,105 @@ Heading 2
 <!-- --------------------------------------------------------------------- -->
 ## List
 
+1. An unordered list can be created by preceding one or more lines of text with a hyphen (-), an asterisk (*), or a plus sign (+).
+1. An ordered list can be created using numbers (1., 2., 3., and so on) or letters (a., b., c., and so on) followed by a period.
+    - You can use `1` for each list item, and the numbers will be automatically generated for you
+1. To create a nested list, indent the line(s) with a tab or four white spaces.
+1. To create a task list, begin list items with a hyphen and a space, followed by [ ]. To mark a task as complete, use [x].
+
+<table>
+
+<tr>
+<td align="center"> <b>Markup Code</b> </td> 
+<td align="center"> <b>Style</b> </td>
+</tr>
+
+<tr>
+<td> 
+
+<b>An unordered list<b>
+```md
+- item 1
+- item 2
+- item 3
+```
+</td>
+
+<td>
+
+- item 1
+- item 2
+- item 3
+
+</td>
+</tr>
+
+<tr>
+<td> 
+
+<b>An ordered list<b>
+```md
+1. item 1
+1. item 2
+1. item 3
+```
+</td>
+
+<td>
+
+1. item 1
+1. item 2
+1. item 3
+
+</td>
+</tr>
+
+<tr>
+<td> 
+
+<b>Nested list<b>
+```md
+1. First list item
+   - First nested list item
+     - Second nested list item
+```
+</td>
+
+<td>
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+</td>
+
+<tr>
+<td> 
+
+<b>Task list<b>
+```md
+- [x] Task 1 Completed 
+- [ ] Task 2
+  - [ ] Sub-task for Task 2
+- [ ] Task 3
+```
+</td>
+
+<td>
+
+- [x] Task 1 Completed 
+- [ ] Task 2
+  - [ ] Sub-task for Task 2
+- [ ] Task 3
+
+</td>
+</tr>
+
+
+</tr>
+
+</table>
+
 <!-- --------------------------------------------------------------------- -->
 ## Math in Markdown
 
