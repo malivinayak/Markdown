@@ -246,7 +246,7 @@ Heading 2
 
 <tr>
 <td align="center"> <b>Markup Code</b> </td> 
-<td align="center"> <b>Style</b> </td>
+<td align="center"> <b>Result</b> </td>
 </tr>
 
 <tr>
