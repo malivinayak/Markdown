@@ -494,7 +494,7 @@ ___Strong emphasized text___
 @@ text in purple (and bold)@@
 ```
 ````
-Note : add one more backtick `` ` `` at end
+
 </td>
 <td>
 
