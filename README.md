@@ -20,10 +20,10 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 - [Text Style](#text-style)
 - [Table](#table)
 
-
-
+<!-- --------------------------------------------------------------------- -->
 ## Badge
 
+<!-- --------------------------------------------------------------------- -->
 ## Checkbox
 
 <table>
@@ -91,12 +91,14 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 
 </table>
 
-
+<!-- --------------------------------------------------------------------- -->
 ## Emoji
 * [Reference Link](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
+<!-- --------------------------------------------------------------------- -->
 ## Foldable Text
 
+<!-- --------------------------------------------------------------------- -->
 ## Footnotes References
  A marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
 
@@ -133,6 +135,7 @@ This is a footnote.[^1]
 
 Note: The `the footnote text.` will be appear at end of the file
 
+<!-- --------------------------------------------------------------------- -->
 ## Heading
 
 <table>
@@ -221,6 +224,7 @@ Heading 2
 
 </table>
 
+<!-- --------------------------------------------------------------------- -->
 ## Link
 
 ### Link to specific part of page
@@ -229,10 +233,11 @@ Heading 2
 
 ### Link to other url
 
+<!-- --------------------------------------------------------------------- -->
 ## List
 
+<!-- --------------------------------------------------------------------- -->
 ## Math in Markdown
-
 
 <table>
 
@@ -291,8 +296,10 @@ $(ax^2 + bx + c = 0)$
 </table>
 
 
+<!-- --------------------------------------------------------------------- -->
 ## Nested Block
 
+<!-- --------------------------------------------------------------------- -->
 ## Text Style
 
 <table>
@@ -421,8 +428,8 @@ Note : add one more backtick `` ` `` at end
 
 </table>
 
+<!-- --------------------------------------------------------------------- -->
 ## Table
-
 
 <table>
 
@@ -566,8 +573,7 @@ Colmn 2 Row 2
 
 </table>
 
-
-
+<!-- --------------------------------------------------------------------- -->
 ## License
 
 | | |
