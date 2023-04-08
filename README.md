@@ -407,128 +407,135 @@ $(ax^2 + bx + c = 0)$
 ## Text Style
 
 <table>
-
+  
+<tr></tr>
 <tr>
-<td align="center"> <h3>Markup Code</h3> </td> 
-<td align="center"> <h3>Style</h3> </td>
+<td align="center"> <b>Markup Code</b> </td> 
+<td align="center"> <b>Style</b> </td>
 </tr>
 
 <tr>
-<td> 
+  <td> 
 
-```markup
-Common text
-```
-</td>
-<td>
+  ```markup
+  Common text
+  ```
+  </td>
+  <td>
 
-Common text
-</td>
+  Common text
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```markup
-_Emphasized text_
-```
-```markup
-*Emphasized text*
-```
-</td>
-<td>
+  ```markup
+  _Emphasized text_
+  ```
+  ```markup
+  *Emphasized text*
+  ```
+  </td>
+  <td>
 
-_Emphasized text_
-</td>
+  _Emphasized text_
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```markup
-~~Strikethrough text~~
-```
-</td>
-<td>
+  ```markup
+  ~~Strikethrough text~~
+  ```
+  </td>
+  <td>
 
-~~Strikethrough text~~
-</td>
+  ~~Strikethrough text~~
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```markup
-__Strong text__
-```
-```markup
-**Strong text**
-```
-</td>
-<td>
+  ```markup
+  __Strong text__
+  ```
+  ```markup
+  **Strong text**
+  ```
+  </td>
+  <td>
 
-__Strong/Bold text__
-</td>
+  __Strong/Bold text__
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```markup
-___Strong emphasized text___
-```
-```markup
-***Strong emphasized text***
-```
-</td>
-<td>
+  ```markup
+  ___Strong emphasized text___
+  ```
+  ```markup
+  ***Strong emphasized text***
+  ```
+  </td>
+  <td>
 
-___Strong emphasized text___
-</td>
+  ___Strong emphasized text___
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-````markup
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-````
+  ````markup
+  ```diff
+  - text in red
+  + text in green
+  ! text in orange
+  # text in gray
+  @@ text in purple (and bold)@@
+  ```
+  ````
 
-</td>
-<td>
+  </td>
+  <td>
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-</td>
+  ```diff
+  - text in red
+  + text in green
+  ! text in orange
+  # text in gray
+  @@ text in purple (and bold)@@
+  ```
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```html
-<p align="left"> Center Alligned Text </p>
-<p align="center"> Center Alligned Text </p>
-<p align="right"> Center Alligned Text </p>
-```
-</td>
-<td>
+  ```html
+  <p align="left"> Center Alligned Text </p>
+  <p align="center"> Center Alligned Text </p>
+  <p align="right"> Center Alligned Text </p>
+  ```
+  </td>
+  <td>
 
-* <p align="left"> Center Alligned Text </p>
-* <p align="center"> Center Alligned Text </p>
-* <p align="right"> Center Alligned Text </p>
-</td>
-</tr>
+  * <p align="left"> Center Alligned Text </p>
+  * <p align="center"> Center Alligned Text </p>
+  * <p align="right"> Center Alligned Text </p>
+  </td>
+  </tr>
 
 </table>
 
