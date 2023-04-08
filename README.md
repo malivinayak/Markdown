@@ -140,6 +140,8 @@ Note: The `the footnote text.` will be appear at end of the file
 
 <table>
 
+<tr></tr>
+
 <tr>
 <td align="center"> Markup Code  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </td> 
 <td align="center"> Result  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </td>
@@ -152,8 +154,6 @@ Note: The `the footnote text.` will be appear at end of the file
 ```markup
 # Heading 1 
 ```
----
-
 ```markup
 Heading 1 
 ==========
@@ -168,6 +168,8 @@ Heading 1
 </td>
 </tr>
 
+<tr></tr>
+
 <!-- Heading 2 Source Code -->
 <tr>
 <td> 
@@ -175,8 +177,6 @@ Heading 1
 ```markup
 ## Heading 2 
 ```
----
-
 ```markup
 Heading 2 
 -----------
@@ -190,6 +190,8 @@ Heading 2
 ----------
 </td>
 </tr>
+
+<tr></tr>
 
 <!-- Heading 3 Source Code -->
 <tr>
@@ -206,6 +208,7 @@ Heading 2
 </td>
 </tr>
 
+<tr></tr>
 
 <!-- Heading 4 Source Code -->
 <tr>
@@ -244,6 +247,7 @@ Heading 2
 
 <table>
 
+<tr></tr>
 <tr>
 <td align="center"> <b>Markup Code</b> </td> 
 <td align="center"> <b>Result</b> </td>
@@ -269,6 +273,7 @@ Heading 2
 </td>
 </tr>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -289,6 +294,7 @@ Heading 2
 </td>
 </tr>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -308,6 +314,7 @@ Heading 2
 
 </td>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -329,10 +336,7 @@ Heading 2
 
 </td>
 </tr>
-
-
 </tr>
-
 </table>
 
 <!-- --------------------------------------------------------------------- -->
@@ -340,6 +344,7 @@ Heading 2
 
 <table>
 
+<tr></tr>
 <tr>
 <td align="center"> <b>Markup Code</b> </td> 
 <td align="center"> <b>Result</b> </td>
@@ -360,6 +365,7 @@ Fraction like `4/5`
 </td>
 </tr>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -378,6 +384,7 @@ $a \ne b$
 </td>
 </tr>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -391,9 +398,7 @@ $(ax^2 + bx + c = 0)$
 $(ax^2 + bx + c = 0)$
 </td>
 </tr>
-
 </table>
-
 
 <!-- --------------------------------------------------------------------- -->
 ## Nested Block
@@ -402,128 +407,135 @@ $(ax^2 + bx + c = 0)$
 ## Text Style
 
 <table>
-
+  
+<tr></tr>
 <tr>
-<td align="center"> <h3>Markup Code</h3> </td> 
-<td align="center"> <h3>Style</h3> </td>
+<td align="center"> <b>Markup Code</b> </td> 
+<td align="center"> <b>Style</b> </td>
 </tr>
 
 <tr>
-<td> 
+  <td> 
 
-```markup
-Common text
-```
-</td>
-<td>
+  ```markup
+  Common text
+  ```
+  </td>
+  <td>
 
-Common text
-</td>
+  Common text
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```markup
-_Emphasized text_
-```
-```markup
-*Emphasized text*
-```
-</td>
-<td>
+  ```markup
+  _Emphasized text_
+  ```
+  ```markup
+  *Emphasized text*
+  ```
+  </td>
+  <td>
 
-_Emphasized text_
-</td>
+  _Emphasized text_
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```markup
-~~Strikethrough text~~
-```
-</td>
-<td>
+  ```markup
+  ~~Strikethrough text~~
+  ```
+  </td>
+  <td>
 
-~~Strikethrough text~~
-</td>
+  ~~Strikethrough text~~
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```markup
-__Strong text__
-```
-```markup
-**Strong text**
-```
-</td>
-<td>
+  ```markup
+  __Strong text__
+  ```
+  ```markup
+  **Strong text**
+  ```
+  </td>
+  <td>
 
-__Strong/Bold text__
-</td>
+  __Strong/Bold text__
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```markup
-___Strong emphasized text___
-```
-```markup
-***Strong emphasized text***
-```
-</td>
-<td>
+  ```markup
+  ___Strong emphasized text___
+  ```
+  ```markup
+  ***Strong emphasized text***
+  ```
+  </td>
+  <td>
 
-___Strong emphasized text___
-</td>
+  ___Strong emphasized text___
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-````markup
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-````
+  ````markup
+  ```diff
+  - text in red
+  + text in green
+  ! text in orange
+  # text in gray
+  @@ text in purple (and bold)@@
+  ```
+  ````
 
-</td>
-<td>
+  </td>
+  <td>
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-</td>
+  ```diff
+  - text in red
+  + text in green
+  ! text in orange
+  # text in gray
+  @@ text in purple (and bold)@@
+  ```
+  </td>
 </tr>
 
+<tr></tr>
 <tr>
-<td> 
+  <td> 
 
-```html
-<p align="left"> Center Alligned Text </p>
-<p align="center"> Center Alligned Text </p>
-<p align="right"> Center Alligned Text </p>
-```
-</td>
-<td>
+  ```html
+  <p align="left"> Center Alligned Text </p>
+  <p align="center"> Center Alligned Text </p>
+  <p align="right"> Center Alligned Text </p>
+  ```
+  </td>
+  <td>
 
-* <p align="left"> Center Alligned Text </p>
-* <p align="center"> Center Alligned Text </p>
-* <p align="right"> Center Alligned Text </p>
-</td>
-</tr>
+  * <p align="left"> Center Alligned Text </p>
+  * <p align="center"> Center Alligned Text </p>
+  * <p align="right"> Center Alligned Text </p>
+  </td>
+  </tr>
 
 </table>
 
@@ -532,10 +544,7 @@ ___Strong emphasized text___
 
 <table>
 
-<tr>
-
-* Simple Checkbox
-</tr>
+<tr></tr>
 
 <tr>
 <td align="center"> Markup Code to create Table</td> 
@@ -565,8 +574,9 @@ Content Cell  | Content Cell
 </td>
 </tr>
 
+<tr></tr>
 <!-- Format 2 -->
-
+ 
 <tr>
 <td> 
 
@@ -589,87 +599,52 @@ Content Cell  | Content Cell | Content Cell
 </td>
 </tr>
 
+<tr></tr>
 <!-- Format 3 -->
 <tr>
-
 <td>
 
 <p align='center'>Using HTML Syntax</p>
 
 ```html
 <table>
+  <tr>
+    <td align="center"> <b>Column 1 Heading</b> </td> 
+    <td align="center"> <b>Column 2 Heading</b> </td>
+  </tr>
 
-<tr>
-<td align="center"> <b>Column 1 Heading</b> </td> 
-<td align="center"> <b>Column 2 Heading</b> </td>
-</tr>
+  <tr>
+    <td> Colmn 1 Row 1 </td>
+    <td> Colmn 2 Row 1 </td>
+  </tr>
 
-<tr>
-<td> 
-
-Colmn 1 Row 1
-</td>
-
-<td>
-
-Colmn 2 Row 1
-</td>
-</tr>
-
-<tr>
-<td> 
-
-Colmn 1 Row 2
-</td>
-
-<td>
-
-Colmn 2 Row 2
-</td>
-</tr>
-
+  <tr>
+    <td> Colmn 1 Row 2 </td>
+    <td> Colmn 2 Row 2 </td>
+  </tr>
 </table>
 ```
 </td>
 
 <td>
-
 <table>
+  <tr>
+    <td align="center"> <b>Column 1 Heading</b> </td> 
+    <td align="center"> <b>Column 2 Heading</b> </td>
+  </tr>
 
-<tr>
-<td align="center"> <b>Column 1 Heading</b> </td> 
-<td align="center"> <b>Column 2 Heading</b> </td>
-</tr>
+  <tr>
+    <td> Colmn 1 Row 1 </td>
+    <td> Colmn 2 Row 1 </td>
+  </tr>
 
-<tr>
-<td> 
-
-Colmn 1 Row 1
-</td>
-
-<td>
-
-Colmn 2 Row 1
-</td>
-</tr>
-
-<tr>
-<td> 
-
-Colmn 1 Row 2
-</td>
-
-<td>
-
-Colmn 2 Row 2
-</td>
-</tr>
-
+  <tr>
+    <td> Colmn 1 Row 2 </td>
+    <td> Colmn 2 Row 2 </td>
+  </tr>
 </table>
 </td>
-
 </tr>
-
 </table>
 
 <!-- --------------------------------------------------------------------- -->
