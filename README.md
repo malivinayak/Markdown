@@ -537,10 +537,7 @@ ___Strong emphasized text___
 
 <table>
 
-<tr>
-
-* Simple Checkbox
-</tr>
+<tr></tr>
 
 <tr>
 <td align="center"> Markup Code to create Table</td> 
@@ -570,8 +567,9 @@ Content Cell  | Content Cell
 </td>
 </tr>
 
+<tr></tr>
 <!-- Format 2 -->
-
+ 
 <tr>
 <td> 
 
@@ -594,87 +592,52 @@ Content Cell  | Content Cell | Content Cell
 </td>
 </tr>
 
+<tr></tr>
 <!-- Format 3 -->
 <tr>
-
 <td>
 
 <p align='center'>Using HTML Syntax</p>
 
 ```html
 <table>
+  <tr>
+    <td align="center"> <b>Column 1 Heading</b> </td> 
+    <td align="center"> <b>Column 2 Heading</b> </td>
+  </tr>
 
-<tr>
-<td align="center"> <b>Column 1 Heading</b> </td> 
-<td align="center"> <b>Column 2 Heading</b> </td>
-</tr>
+  <tr>
+    <td> Colmn 1 Row 1 </td>
+    <td> Colmn 2 Row 1 </td>
+  </tr>
 
-<tr>
-<td> 
-
-Colmn 1 Row 1
-</td>
-
-<td>
-
-Colmn 2 Row 1
-</td>
-</tr>
-
-<tr>
-<td> 
-
-Colmn 1 Row 2
-</td>
-
-<td>
-
-Colmn 2 Row 2
-</td>
-</tr>
-
+  <tr>
+    <td> Colmn 1 Row 2 </td>
+    <td> Colmn 2 Row 2 </td>
+  </tr>
 </table>
 ```
 </td>
 
 <td>
-
 <table>
+  <tr>
+    <td align="center"> <b>Column 1 Heading</b> </td> 
+    <td align="center"> <b>Column 2 Heading</b> </td>
+  </tr>
 
-<tr>
-<td align="center"> <b>Column 1 Heading</b> </td> 
-<td align="center"> <b>Column 2 Heading</b> </td>
-</tr>
+  <tr>
+    <td> Colmn 1 Row 1 </td>
+    <td> Colmn 2 Row 1 </td>
+  </tr>
 
-<tr>
-<td> 
-
-Colmn 1 Row 1
-</td>
-
-<td>
-
-Colmn 2 Row 1
-</td>
-</tr>
-
-<tr>
-<td> 
-
-Colmn 1 Row 2
-</td>
-
-<td>
-
-Colmn 2 Row 2
-</td>
-</tr>
-
+  <tr>
+    <td> Colmn 1 Row 2 </td>
+    <td> Colmn 2 Row 2 </td>
+  </tr>
 </table>
 </td>
-
 </tr>
-
 </table>
 
 <!-- --------------------------------------------------------------------- -->
