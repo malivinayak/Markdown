@@ -247,6 +247,7 @@ Heading 2
 
 <table>
 
+<tr></tr>
 <tr>
 <td align="center"> <b>Markup Code</b> </td> 
 <td align="center"> <b>Result</b> </td>
@@ -272,6 +273,7 @@ Heading 2
 </td>
 </tr>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -292,6 +294,7 @@ Heading 2
 </td>
 </tr>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -311,6 +314,7 @@ Heading 2
 
 </td>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -332,10 +336,7 @@ Heading 2
 
 </td>
 </tr>
-
-
 </tr>
-
 </table>
 
 <!-- --------------------------------------------------------------------- -->
