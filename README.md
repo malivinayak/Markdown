@@ -344,6 +344,7 @@ Heading 2
 
 <table>
 
+<tr></tr>
 <tr>
 <td align="center"> <b>Markup Code</b> </td> 
 <td align="center"> <b>Result</b> </td>
@@ -364,6 +365,7 @@ Fraction like `4/5`
 </td>
 </tr>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -382,6 +384,7 @@ $a \ne b$
 </td>
 </tr>
 
+<tr></tr>
 <tr>
 <td> 
 
@@ -395,9 +398,7 @@ $(ax^2 + bx + c = 0)$
 $(ax^2 + bx + c = 0)$
 </td>
 </tr>
-
 </table>
-
 
 <!-- --------------------------------------------------------------------- -->
 ## Nested Block
