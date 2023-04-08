@@ -140,6 +140,8 @@ Note: The `the footnote text.` will be appear at end of the file
 
 <table>
 
+<tr></tr>
+
 <tr>
 <td align="center"> Markup Code  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </td> 
 <td align="center"> Result  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </td>
@@ -152,8 +154,6 @@ Note: The `the footnote text.` will be appear at end of the file
 ```markup
 # Heading 1 
 ```
----
-
 ```markup
 Heading 1 
 ==========
@@ -168,6 +168,8 @@ Heading 1
 </td>
 </tr>
 
+<tr></tr>
+
 <!-- Heading 2 Source Code -->
 <tr>
 <td> 
@@ -175,8 +177,6 @@ Heading 1
 ```markup
 ## Heading 2 
 ```
----
-
 ```markup
 Heading 2 
 -----------
@@ -190,6 +190,8 @@ Heading 2
 ----------
 </td>
 </tr>
+
+<tr></tr>
 
 <!-- Heading 3 Source Code -->
 <tr>
@@ -206,6 +208,7 @@ Heading 2
 </td>
 </tr>
 
+<tr></tr>
 
 <!-- Heading 4 Source Code -->
 <tr>
