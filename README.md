@@ -98,6 +98,68 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 <!-- --------------------------------------------------------------------- -->
 ## Foldable Text
 
+<table>
+
+<tr>
+
+* Simple Collapsible Section
+</tr>
+
+<tr>
+<td align="center"> Markup Code</td> 
+<td align="center"> Result </td>
+</tr>
+
+<tr>
+<td> 
+
+````markup
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+````
+
+</td>
+
+<td>
+
+<details>
+  <summary>Click me</summary>
+  
+  ### Heading
+  1. Foo
+  2. Bar
+     * Baz
+     * Qux
+
+  ### Some Javascript
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
+
+</td>
+</tr>
+
+</table>
+
+
+
 <!-- --------------------------------------------------------------------- -->
 ## Footnotes References
  A marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
