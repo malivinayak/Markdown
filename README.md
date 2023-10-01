@@ -107,7 +107,7 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 
 <tr>
 <td align="center"> Markup Code</td> 
-<td align="center"> Result </td>
+<td align="center"> Result &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   </td>
 </tr>
 
 <tr>
@@ -159,6 +159,43 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 </table>
 
 
+<table>
+
+<tr>
+
+* Expand by Default
+</tr>
+
+<tr>
+<td align="center"> Markup Code</td> 
+<td align="center"> Result &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;   </td>
+</tr>
+
+<tr>
+<td> 
+
+````markup
+<details open>
+  <summary>Click Me</summary>
+  Expanded by Default
+</details>
+````
+
+</td>
+
+<td>
+
+<details open>
+  <summary>Click Me</summary>
+  Expanded by Default
+</details>
+
+</td>
+</tr>
+
+</table>
+
+
 
 <!-- --------------------------------------------------------------------- -->
 ## Footnotes References
@@ -171,7 +208,8 @@ Markdown is an easy-to-read, easy-to-write language for formatting plain text. Y
 
 <tr>
 <td align="center"> <b>Markup Code</b> </td> 
-<td align="center"> <b>Result</b> </td>
+<td align="center"> <b>Result</b> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  
+ </td>
 </tr>
 
 <tr>
